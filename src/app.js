@@ -80,7 +80,6 @@ app.get("/products", (req, res) => {
     });
   }
 
-  console.log(req.query.search);
   res.send({
     product: [],
   });
